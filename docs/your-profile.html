@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Dating in telegram" />
+    <title>Flirtu - your profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="content">
+      <!-- start profile header -->
+      <div class="profile-header">
+        <div class="profile-top__header">
+          <div class="back-to-bot-button">
+          Back to bot
+          </div>
+         
+         
+        </div>
+
+        
+
+        <div class="main-photo-wrapper">
+          <div class="spinner"></div>
+          <!-- <div class="photo-plus-wrapper">
+            <input type="file" class="input-file" id="file1" accept="image/*"/>
+            <label for="file1"
+              ><img src="img/plus.svg" alt="plus icon" class="plus-photo"
+            /></label>
+          </div> -->
+
+                    <img
+
+            src="img/profile-photo2.png"
+            alt="photo profile"
+            class="profile-photo"
+            width="200"
+            height="200"
+          />
+          <div class="main-photo__footer">
+            <input type="file" class="input-file" id="file2" accept="image/*"/>
+            <label for="file2"><img src="img/edit.svg" alt="edit icon" /></label>
+          </div> 
+        </div>
+      </div>
+      <!-- end profile header -->
+
+      <!-- start profile content -->
+      <div class="profile-content">
+        <div class="container">
+          <div class="profile-content__header">
+            <div class="user-name-age-wrapper">
+              <div class="user-name">Konstantin,</div>
+              <div class="user-age">28</div>
+            </div>        
+                    </div>
+
+                    <div class="user-info__items">
+                      <div class="user-info__item location">Kyiv</div>
+                      
+                    </div>
+        </div>
+
+        <div class="photo-section">
+          <div class="photo-wrapper">
+            <div class="photo-item photo-item--big">
+              <a
+                href="img/photo1.png"
+                data-fancybox="gallery1"
+                class="fancybox"
+              >
+                <img src="img/photo1.png" alt="photo" class="photo-item__img" accept="image/*"/>
+              </a>
+
+
+              <div class="delete-photo-item delete-photo-item--big">
+                <div class="delete-photo-item__wrapper"><img
+                src="img/del.svg"
+                alt=""
+                class=""
+              />
+
+                </div>
+
+              </div>
+              
+              <div class="photo-plus-wrapper">
+                <input type="file" class="input-file" id="file3" accept="image/*"/>
+                <label for="file3"
+                  ><img src="img/plus.svg" alt="plus icon" class="plus-photo"
+                /></label>
+              </div>
+              <div class="modal" id="modal">
+                <div class="modal-content">
+                  <div class="modal-title">Delete photo?</div>
+
+                  <div class="profile-buttons">
+                    <div class="button close-modal">Cancel</div>
+                    <div class="button button--red delete-photo">Done</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-item__wrap">
+              <div class="photo-item">
+                <a
+                  href="img/photo2.png"
+                  data-fancybox="gallery1"
+                  class="fancybox"
+                >
+                  <img
+                    src="img/photo2.png"
+                    alt="photo"
+                    class="photo-item__img"
+                  />
+                </a>
+                <div class="photo-plus-wrapper">
+                  <input type="file" class="input-file" id="file4" accept="image/*"/>
+                  <label for="file4"
+                    ><img src="img/plus.svg" alt="" class="plus-photo"
+                  /></label>
+                </div>
+
+                <div class="delete-photo-item">
+                  <div class="delete-photo-item__wrapper">
+                    <img src="img/del.svg" alt="delete icon" class="" />
+                  </div>
+                  
+                </div>
+
+                
+                <div class="modal" id="modal">
+                  <div class="modal-content">
+                    <div class="modal-title">Delete photo?</div>
+
+                    <div class="profile-buttons">
+                      <div class="button close-modal">Cancel</div>
+                      <div class="button button--red delete-photo">Done</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="photo-item">
+                <div class="photo-plus-wrapper">
+                  <input type="file" class="input-file" id="file5" accept="image/*"/>
+                  <!-- <label for="file5"
+                    ><img src="img/plus.svg" alt="plus icon" class="plus-photo"
+                  /></label> -->
+                  <div class="spinner"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="photo-item">
+              <div class="photo-plus-wrapper">
+                <input type="file" class="input-file" id="file6" accept="image/*"/>
+                <label for="file6"
+                  ><img src="img/plus.svg" alt="plus icon" class="plus-photo"
+                /></label>
+              </div>
+              <img src="img/del.svg" alt="delete icon" class="delete-photo-item" />
+            </div>
+
+            <div class="photo-item">
+              <div class="photo-plus-wrapper">
+                <input type="file" class="input-file" id="file7" accept="image/*"/>
+                <label for="file7"
+                  ><img src="img/plus.svg" alt="plus icon" class="plus-photo"
+                /></label>
+              </div>
+            </div>
+
+            <div class="photo-item">
+              <input type="file" class="input-file" id="file8" accept="image/*"/>
+              <label for="file8"
+                ><img src="img/plus.svg" alt="plus icon" class="plus-photo"
+              /></label>
+            </div>
+            
+          </div>
+          <a href="" class="button--blue add-video-button">
+            Add Photos
+          </a>
+        </div>
+
+        <div class="questions-list questions-list--edit">
+          <div class="questions-item">
+            <a href="edit-answer1.html" class="edit">
+              <img src="img/edit.svg" alt="edit icon" width="18" height="19" />
+            </a>
+            <div class="container">
+              <div class="question">What is your favorite color?</div>
+              <div class="answer">Persimmon and blue</div>
+            </div>
+          </div>
+
+          <div class="questions-item">
+            <a href="edit-answer1.html" class="edit">
+              <img src="img/edit.svg" alt="edit icon" width="18" height="19" />
+            </a>
+            <div class="container">
+              <div class="question">Describe yourself in one sentence.</div>
+              <div class="answer">
+                Captivating performances and ability to embody complex
+                characters with depth and authenticity.
+              </div>
+            </div>
+          </div>
+
+          <div class="questions-item">
+            <a href="edit-answer1.html" class="edit">
+              <img src="img/edit.svg" alt="edit icon" width="18" height="19" />
+            </a>
+            <div class="container">
+              <div class="question">What do you like the most?</div>
+              <div class="answer">Dancing and swimming</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end profile content -->
+
+      <!-- start footer -->
+      <div class="footer">
+        <div class="flirtu-logo">
+          <img src="img/f.svg" alt="flirtu logo" width="39" height="41" />
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+
+
+    <!-- start modal succes -->
+
+    <div class="modal" id="modal">
+      <img src="img/close.png" alt="" class="close-btn">
+      <div class="modal-content">
+        <img src="img/check.png" alt="">
+        <div class="modal-title">Photo uploaded successfully</div>
+
+      
+    </div>
+    <!-- end modal succes -->
+
+    <!-- start modal fail -->
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <img src="img/close.png" alt="" class="close-btn">
+        <img src="img/fail.png" alt="">
+        <div class="modal-title">Loading error</div>
+
+      
+    </div>
+    <!-- end modal fail -->
+
+
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+    <script>
+      $('[data-fancybox="gallery1"]').fancybox({
+        transitionEffect: "fade",
+        transitionDuration: 0,
+      });
+    </script>
+
+    <script>
+      $(".delite-photo img").click(function () {
+        $(this).parent().parent().parent().fadeOut();
+      });
+      $(".delete-photo-item").click(function () {
+        $(this).parent().find(".modal").fadeIn();
+      });
+
+      $(".delete-photo").click(function () {
+        $(".modal").fadeOut();
+        $(this)
+          .parent()
+          .parent()
+          .parent()
+          .parent()
+          .find(".photo-item__img")
+          .fadeOut();
+      });
+
+      $(".close-modal, .close-btn").click(function () {
+        $(".modal").fadeOut();
+      });
+
+      $(".delete-main-photo").click(function () {
+        $(".profile-photo").fadeOut();
+        $(".main-photo__footer").fadeOut();
+      });
+    </script>
+
+
+  </body>
+</html>
